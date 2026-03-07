@@ -4,6 +4,12 @@ node_modules/
 # Build output
 dist/
 build/
+dev-dist/
+
+# Lint and build logs
+*.log
+*.txt
+eslint-report.*
 
 # Environment variables
 .env
