@@ -1,0 +1,124 @@
+[0m[0m
+[0m[4mD:\Projects\Portfolio\frontend\dev-dist\sw.js[24m[0m
+[0m  [2m34:13[22m  [31merror[39m  'importScripts' is not defined  [2mno-undef[22m[0m
+[0m  [2m70:1[22m   [31merror[39m  'define' is not defined         [2mno-undef[22m[0m
+[0m[0m
+[0m[4mD:\Projects\Portfolio\frontend\dev-dist\workbox-5a5d9309.js[24m[0m
+[0m     [2m1:1[22m   [31merror[39m  'define' is not defined                                                         [2mno-undef[22m[0m
+[0m     [2m5:37[22m  [31merror[39m  '_' is not defined                                                              [2mno-undef[22m[0m
+[0m     [2m6:14[22m  [31merror[39m  'e' is defined but never used                                                   [2mno-unused-vars[22m[0m
+[0m     [2m6:17[22m  [31merror[39m  Empty block statement                                                           [2mno-empty[22m[0m
+[0m    [2m69:7[22m   [31merror[39m  Definition for rule '@typescript-eslint/ban-types' was not found                [2m@typescript-eslint/ban-types[22m[0m
+[0m   [2m436:5[22m   [31merror[39m  Definition for rule '@typescript-eslint/ban-types' was not found                [2m@typescript-eslint/ban-types[22m[0m
+[0m   [2m475:40[22m  [31merror[39m  '_' is not defined                                                              [2mno-undef[22m[0m
+[0m   [2m476:14[22m  [31merror[39m  'e' is defined but never used                                                   [2mno-unused-vars[22m[0m
+[0m   [2m476:17[22m  [31merror[39m  Empty block statement                                                           [2mno-empty[22m[0m
+[0m   [2m769:11[22m  [31merror[39m  Definition for rule '@typescript-eslint/no-unsafe-member-access' was not found  [2m@typescript-eslint/no-unsafe-member-access[22m[0m
+[0m   [2m771:13[22m  [31merror[39m  Definition for rule '@typescript-eslint/no-unsafe-assignment' was not found     [2m@typescript-eslint/no-unsafe-assignment[22m[0m
+[0m   [2m965:11[22m  [31merror[39m  Definition for rule '@typescript-eslint/no-unsafe-assignment' was not found     [2m@typescript-eslint/no-unsafe-assignment[22m[0m
+[0m   [2m981:13[22m  [31merror[39m  Definition for rule '@typescript-eslint/no-unsafe-assignment' was not found     [2m@typescript-eslint/no-unsafe-assignment[22m[0m
+[0m  [2m1214:53[22m  [31merror[39m  'registration' is not defined                                                   [2mno-undef[22m[0m
+[0m  [2m1272:43[22m  [31merror[39m  '_' is not defined                                                              [2mno-undef[22m[0m
+[0m  [2m1273:14[22m  [31merror[39m  'e' is defined but never used                                                   [2mno-unused-vars[22m[0m
+[0m  [2m1273:17[22m  [31merror[39m  Empty block statement                                                           [2mno-empty[22m[0m
+[0m  [2m1521:20[22m  [31merror[39m  'error' is defined but never used                                               [2mno-unused-vars[22m[0m
+[0m  [2m1665:5[22m   [31merror[39m  Definition for rule '@typescript-eslint/ban-types' was not found                [2m@typescript-eslint/ban-types[22m[0m
+[0m  [2m1717:43[22m  [31merror[39m  '_' is not defined                                                              [2mno-undef[22m[0m
+[0m  [2m1718:14[22m  [31merror[39m  'e' is defined but never used                                                   [2mno-unused-vars[22m[0m
+[0m  [2m1718:17[22m  [31merror[39m  Empty block statement                                                           [2mno-empty[22m[0m
+[0m  [2m1796:56[22m  [31merror[39m  'ExtendableEvent' is not defined                                                [2mno-undef[22m[0m
+[0m  [2m1835:61[22m  [31merror[39m  'FetchEvent' is not defined                                                     [2mno-undef[22m[0m
+[0m  [2m1870:15[22m  [31merror[39m  Unexpected constant condition                                                   [2mno-constant-condition[22m[0m
+[0m  [2m2336:32[22m  [31merror[39m  'FetchEvent' is not defined                                                     [2mno-undef[22m[0m
+[0m  [2m2404:18[22m  [31merror[39m  'error' is defined but never used                                               [2mno-unused-vars[22m[0m
+[0m  [2m2793:9[22m   [31merror[39m  Definition for rule '@typescript-eslint/no-unsafe-return' was not found         [2m@typescript-eslint/no-unsafe-return[22m[0m
+[0m  [2m2840:9[22m   [31merror[39m  Definition for rule '@typescript-eslint/no-unsafe-return' was not found         [2m@typescript-eslint/no-unsafe-return[22m[0m
+[0m[0m
+[0m[4mD:\Projects\Portfolio\frontend\src\components\AboutSection.jsx[24m[0m
+[0m  [2m2:10[22m  [31merror[39m  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  [2mno-unused-vars[22m[0m
+[0m[0m
+[0m[4mD:\Projects\Portfolio\frontend\src\components\CustomCursor.jsx[24m[0m
+[0m  [2m2:10[22m  [31merror[39m  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  [2mno-unused-vars[22m[0m
+[0m[0m
+[0m[4mD:\Projects\Portfolio\frontend\src\components\Hero.jsx[24m[0m
+[0m   [2m2:10[22m  [31merror[39m    'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  [2mno-unused-vars[22m[0m
+[0m  [2m17:13[22m  [31merror[39m    Error: Cannot access variable before it is declared[0m
+[0m[0m
+[0m`tick` is accessed before it is declared, which prevents the earlier access from updating when this value changes over time.[0m
+[0m[0m
+[0m  15 |     useEffect(() => {[0m
+[0m  16 |         let ticker = setInterval(() => {[0m
+[0m> 17 |             tick();[0m
+[0m     |             ^^^^ `tick` accessed before it is declared[0m
+[0m  18 |         }, delta);[0m
+[0m  19 |[0m
+[0m  20 |         return () => { clearInterval(ticker) };[0m
+[0m[0m
+[0m  21 |     }, [text, delta]);[0m
+[0m  22 |[0m
+[0m> 23 |     const tick = () => {[0m
+[0m     |     ^^^^^^^^^^^^^^^^^^^^[0m
+[0m> 24 |         let i = loopNum % toRotate.length;[0m
+[0m     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m> 25 |         let fullText = toRotate[i];[0m
+[0m     …[0m
+[0m     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m> 44 |         }[0m
+[0m     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+[0m> 45 |     };[0m
+[0m     | ^^^^^^^ `tick` is declared here[0m
+[0m  46 |[0m
+[0m  47 |     return ([0m
+[0m  48 |         <section className="relative w-full h-screen flex items-center justify-center overflow-hidden bg-gray-50 dark:bg-slate-950">  [2mreact-hooks/immutability[22m[0m
+[0m  [2m21:8[22m   [33mwarning[39m  React Hook useEffect has a missing dependency: 'tick'. Either include it or remove the dependency array                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        [2mreact-hooks/exhaustive-deps[22m[0m
+[0m[0m
+[0m[4mD:\Projects\Portfolio\frontend\src\components\Navbar.jsx[24m[0m
+[0m  [2m6:10[22m  [31merror[39m  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  [2mno-unused-vars[22m[0m
+[0m[0m
+[0m[4mD:\Projects\Portfolio\frontend\src\components\ProjectCard.jsx[24m[0m
+[0m  [2m2:10[22m  [31merror[39m  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  [2mno-unused-vars[22m[0m
+[0m[0m
+[0m[4mD:\Projects\Portfolio\frontend\src\components\ResumeTimeline.jsx[24m[0m
+[0m  [2m2:10[22m  [31merror[39m  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  [2mno-unused-vars[22m[0m
+[0m[0m
+[0m[4mD:\Projects\Portfolio\frontend\src\context\AuthContext.jsx[24m[0m
+[0m   [2m5:14[22m  [31merror[39m  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               [2mreact-refresh/only-export-components[22m[0m
+[0m  [2m15:13[22m  [31merror[39m  Error: Calling setState synchronously within an effect can trigger cascading renders[0m
+[0m[0m
+[0mEffects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:[0m
+[0m* Update external systems with the latest state from React.[0m
+[0m* Subscribe for updates from some external system, calling setState in a callback function when external state changes.[0m
+[0m[0m
+[0mCalling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).[0m
+[0m[0m
+[0m  13 |         const storedUser = localStorage.getItem('user');[0m
+[0m  14 |         if (storedUser) {[0m
+[0m> 15 |             setUser(JSON.parse(storedUser));[0m
+[0m     |             ^^^^^^^ Avoid calling setState() directly within an effect[0m
+[0m  16 |         }[0m
+[0m  17 |         setLoading(false);[0m
+[0m  18 |     }, []);  [2mreact-hooks/set-state-in-effect[22m[0m
+[0m[0m
+[0m[4mD:\Projects\Portfolio\frontend\src\context\ThemeContext.jsx[24m[0m
+[0m  [2m5:14[22m  [31merror[39m  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  [2mreact-refresh/only-export-components[22m[0m
+[0m[0m
+[0m[4mD:\Projects\Portfolio\frontend\src\pages\About.jsx[24m[0m
+[0m  [2m4:10[22m  [31merror[39m  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  [2mno-unused-vars[22m[0m
+[0m[0m
+[0m[4mD:\Projects\Portfolio\frontend\src\pages\Contact.jsx[24m[0m
+[0m  [2m2:10[22m  [31merror[39m  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  [2mno-unused-vars[22m[0m
+[0m[0m
+[0m[4mD:\Projects\Portfolio\frontend\src\pages\Login.jsx[24m[0m
+[0m  [2m2:10[22m  [31merror[39m  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  [2mno-unused-vars[22m[0m
+[0m[0m
+[0m[4mD:\Projects\Portfolio\frontend\src\pages\Projects.jsx[24m[0m
+[0m  [2m2:10[22m  [31merror[39m  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  [2mno-unused-vars[22m[0m
+[0m[0m
+[0m[4mD:\Projects\Portfolio\frontend\src\pages\Signup.jsx[24m[0m
+[0m  [2m2:10[22m  [31merror[39m  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  [2mno-unused-vars[22m[0m
+[0m[0m
+[0m[4mD:\Projects\Portfolio\frontend\src\pages\Skills.jsx[24m[0m
+[0m  [2m2:10[22m  [31merror[39m  'motion' is defined but never used. Allowed unused vars must match /^[A-Z_]/u  [2mno-unused-vars[22m[0m
+[0m[0m
+[0m[31m[1m✖ 48 problems (47 errors, 1 warning)[22m[39m[0m
+[0m[31m[1m[22m[39m[0m
