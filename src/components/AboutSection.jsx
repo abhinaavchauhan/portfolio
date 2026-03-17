@@ -29,11 +29,13 @@ const AboutSection = () => {
                         className="relative group"
                     >
                         <div className="absolute inset-0 bg-blue-600 rounded-2xl rotate-6 opacity-20 group-hover:rotate-12 transition-transform duration-300"></div>
-                        <div className="relative bg-gray-100 dark:bg-slate-800 rounded-2xl p-8 shadow-xl overflow-hidden min-h-[300px] flex items-center justify-center">
-                            {/* Placeholder for Profile Image if user had one, for now an icon or abstract */}
-                            <div className="text-9xl text-gray-300 dark:text-slate-600">
-                                👨‍💻
-                            </div>
+                        <div className="relative bg-gray-100 dark:bg-slate-800 rounded-2xl shadow-xl overflow-hidden h-[400px] flex items-center justify-center">
+                            <img 
+                                src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&q=80" 
+                                alt="Software Development and Cybersecurity" 
+                                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-in-out"
+                            />
+                            <div className="absolute inset-0 bg-blue-900/20 group-hover:bg-transparent transition-colors duration-500 rounded-2xl"></div>
                         </div>
                     </motion.div>
 
