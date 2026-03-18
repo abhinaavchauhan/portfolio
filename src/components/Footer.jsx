@@ -19,7 +19,7 @@ const Footer = () => {
                         <a href="https://github.com/abhinaavchauhan" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
                             <FaGithub size={24} />
                         </a>
-                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
+                        <a href="https://www.linkedin.com/in/abhinav-kumar-singh-74a477237?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">
                             <FaLinkedin size={24} />
                         </a>
                         <a href="https://instagram.com/abhinaavchauhan" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-pink-600 dark:hover:text-pink-400 transition-colors">
