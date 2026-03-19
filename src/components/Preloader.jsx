@@ -10,8 +10,8 @@ const Preloader = () => {
 
         // Fake progress loading (since it's a visual effect)
         let currentProgress = 0;
-        const totalDuration = 2500; // ms
-        const updateInterval = 40; // update frequency
+        const totalDuration = 500; // ms
+        const updateInterval = 20; // update frequency
         const step = 100 / (totalDuration / updateInterval);
 
         const progressTimer = setInterval(() => {
@@ -24,7 +24,7 @@ const Preloader = () => {
                 setTimeout(() => {
                     // Start fade out
                     setIsLoading(false);
-                }, 500);
+                }, 150);
             }
             // Use Math.min to ensure we don't exceed 100 and floor it to an integer
             setProgress(Math.floor(Math.min(currentProgress, 100)));
@@ -40,7 +40,7 @@ const Preloader = () => {
         if (!isLoading) {
             const timer = setTimeout(() => {
                 document.body.style.overflow = 'unset';
-            }, 800); // Wait for CSS transition duration (.duration-700)
+            }, 300); // Wait for CSS transition duration (.duration-700)
             return () => clearTimeout(timer);
         }
     }, [isLoading]);

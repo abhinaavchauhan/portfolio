@@ -33,6 +33,7 @@ const AboutSection = () => {
                             <img 
                                 src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=800&q=80" 
                                 alt="Software Development and Cybersecurity" 
+                                loading="lazy"
                                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 ease-in-out"
                             />
                             <div className="absolute inset-0 bg-blue-900/20 group-hover:bg-transparent transition-colors duration-500 rounded-2xl"></div>
