@@ -12,14 +12,6 @@ const Hero = () => {
     const toRotate = ["Software Developer", "Cybersecurity Enthusiast", "Tech Explorer"];
     const period = 2000;
 
-    useEffect(() => {
-        let ticker = setInterval(() => {
-            tick();
-        }, delta);
-
-        return () => { clearInterval(ticker) };
-    }, [text, delta]);
-
     const tick = () => {
         let i = loopNum % toRotate.length;
         let fullText = toRotate[i];
@@ -43,6 +35,14 @@ const Hero = () => {
             if (!isDeleting && delta === period) setDelta(150);
         }
     };
+
+    useEffect(() => {
+        let ticker = setInterval(() => {
+            tick();
+        }, delta);
+
+        return () => { clearInterval(ticker) };
+    }, [text, delta]);
 
     return (
         <section className="relative w-full h-screen flex items-center justify-center overflow-hidden bg-gray-50 dark:bg-slate-950">
