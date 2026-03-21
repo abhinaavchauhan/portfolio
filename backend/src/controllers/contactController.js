@@ -1,18 +1,7 @@
-import express from 'express';
-import cors from 'cors';
 import nodemailer from 'nodemailer';
 import dotenv from 'dotenv';
-import path from 'path';
 
-// Try to load .env from frontend since the user mentioned they put it there
-dotenv.config({ path: path.resolve('frontend', '.env') });
-// fallback to root
 dotenv.config();
-
-const app = express();
-
-app.use(cors());
-app.use(express.json());
 
 const transporter = nodemailer.createTransport({
     service: 'gmail',
@@ -22,7 +11,7 @@ const transporter = nodemailer.createTransport({
     }
 });
 
-app.post('/api/contact', async (req, res) => {
+export const sendContactEmail = async (req, res) => {
     try {
         const { user_name, user_email, subject, message } = req.body;
 
@@ -191,9 +180,4 @@ app.post('/api/contact', async (req, res) => {
         console.error('Error sending email:', error);
         res.status(500).json({ error: 'Failed to send message' });
     }
-});
-
-const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`);
-});
+};

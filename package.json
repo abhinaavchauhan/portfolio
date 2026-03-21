@@ -1,21 +1,26 @@
 {
-    "name": "portfolio-root",
-    "scripts": {
-        "install:all": "npm install && npm install --prefix frontend",
-        "dev": "concurrently \"node server.js\" \"npm run dev --prefix frontend\"",
-        "start": "node server.js"
-    },
-    "type": "module",
-    "dependencies": {
-        "bcrypt": "^6.0.0",
-        "concurrently": "^9.2.1",
-        "cookie-parser": "^1.4.7",
-        "cors": "^2.8.6",
-        "dotenv": "^17.3.1",
-        "express": "^5.2.1",
-        "express-rate-limit": "^8.3.1",
-        "helmet": "^8.1.0",
-        "jsonwebtoken": "^9.0.3",
-        "nodemailer": "^8.0.1"
-    }
+  "name": "portfolio-monorepo",
+  "version": "1.0.0",
+  "description": "A high-performance portfolio application with a modular architecture.",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "build:frontend": "npm run build --prefix frontend"
+  },
+  "dependencies": {
+    "concurrently": "^9.2.1"
+  },
+  "keywords": [
+    "portfolio",
+    "react",
+    "vite",
+    "nodejs",
+    "express",
+    "nodemailer"
+  ],
+  "author": "Abhinav Chauhan",
+  "license": "ISC"
 }
