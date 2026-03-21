@@ -10,8 +10,7 @@ const ProjectCard = ({ project }) => {
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
             whileHover={{ y: -10 }}
-            onClick={() => window.open(project.liveLink, '_blank')}
-            className="bg-white dark:bg-slate-800 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 dark:border-gray-700 flex flex-col h-full cursor-pointer"
+            className="bg-white dark:bg-slate-800 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100 dark:border-gray-700 flex flex-col h-full"
         >
             <div className="relative overflow-hidden group h-48">
                 <img
@@ -25,7 +24,6 @@ const ProjectCard = ({ project }) => {
                         href={project.githubLink}
                         target="_blank"
                         rel="noopener noreferrer"
-                        onClick={(e) => e.stopPropagation()}
                         className="p-3 bg-white rounded-full text-gray-900 hover:text-blue-600 hover:bg-gray-100 transition-colors"
                         title="View Code"
                     >
@@ -35,7 +33,6 @@ const ProjectCard = ({ project }) => {
                         href={project.liveLink}
                         target="_blank"
                         rel="noopener noreferrer"
-                        onClick={(e) => e.stopPropagation()}
                         className="p-3 bg-white rounded-full text-gray-900 hover:text-blue-600 hover:bg-gray-100 transition-colors"
                         title="Live Demo"
                     >
@@ -45,7 +42,7 @@ const ProjectCard = ({ project }) => {
             </div>
 
             <div className="p-6 flex flex-col flex-grow">
-                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2 group-hover:text-blue-600 transition-colors">{project.title}</h3>
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white mb-2">{project.title}</h3>
                 <p className="text-gray-600 dark:text-gray-400 text-sm mb-4 line-clamp-3">
                     {project.description}
                 </p>

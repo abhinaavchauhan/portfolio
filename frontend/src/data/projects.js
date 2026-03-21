@@ -20,7 +20,7 @@ export const projects = [
         technologies: ["React", "Firebase", "Tailwind CSS"],
         githubLink: "https://github.com/abhinaavchauhan/swiftshare",
         liveLink: "https://github.com/abhinaavchauhan/swiftshare",
-        category: "Android App"
+        category: "Web App"
     },
     {
         id: 3,
