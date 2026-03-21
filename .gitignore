@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Node
 node_modules/
 dist/
@@ -5,12 +6,29 @@ dist-ssr/
 *.local
 
 # Environment
+=======
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+dev-dist/
+
+# Lint and build logs
+*.log
+*.txt
+eslint-report.*
+
+# Environment variables
+>>>>>>> 1ab5df3119bd73c80cea11180c4de64a2348ee32
 .env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
+<<<<<<< HEAD
 # IDE
 .vscode/
 .idea/
@@ -24,13 +42,45 @@ dist-ssr/
 .DS_Store
 Thumbs.db
 
+=======
+>>>>>>> 1ab5df3119bd73c80cea11180c4de64a2348ee32
 # Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
+<<<<<<< HEAD
 # Portfolio Specific
 backend/node_modules/
 frontend/node_modules/
 frontend/dist/
+=======
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Vite
+*.local
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Testing
+coverage/
+
+# Misc
+*.pem
+.cache/
+>>>>>>> 1ab5df3119bd73c80cea11180c4de64a2348ee32
