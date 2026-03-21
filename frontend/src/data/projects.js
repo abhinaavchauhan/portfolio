@@ -17,10 +17,10 @@ export const projects = [
         title: "SwiftShare",
         description: "A fast, secure file sharing application with end-to-end encryption. Allows users to share large files seamlessly.",
         image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&q=60",
-        technologies: ["React", "Firebase", "Tailwind CSS"],
-        githubLink: "https://github.com",
-        liveLink: "https://demo.com",
-        category: "Web App"
+        technologies: ["Java", "Android SDK", "Bluetooth"],
+        githubLink: "https://github.com/abhinaavchauhan/swiftshare",
+        liveLink: "https://github.com/abhinaavchauhan/swiftshare",
+        category: "Android App"
     },
     {
         id: 3,
