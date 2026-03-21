@@ -4,7 +4,9 @@ import contactRoutes from './routes/contactRoutes.js';
 
 const app = express();
 
-app.use(cors());
+app.use(cors({
+  origin: "https://abhinaavchauhan.netlify.app"
+}));
 app.use(express.json());
 
 // Main API Routes
