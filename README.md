@@ -8,7 +8,7 @@ A high-performance, visually stunning portfolio built with a **modular micro-ser
 
 ### 🎨 Frontend Excellence
 - **Progressive Web App (PWA)**: Fully installable like a native app on mobile and desktop devices.
-- **Premium Visuals**: Features a unique, realistic 3D book-themed preloader and dynamic custom cursor.
+- **Premium Visuals**: Features a unique, realistic 3D book-themed preloader and dynamic custom cursor. 
 - **Fluid Animations**: Smooth page transitions, scroll effects, and micro-interactions powered by Framer Motion.
 - **Dark/Light Mode**: Complete, seamless thematic adaptation via Tailwind CSS.
 - **Admin Dashboard**: Private authenticated section (`/admin`) for managing projects and incoming contact messages.
