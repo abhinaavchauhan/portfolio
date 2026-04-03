@@ -1,6 +1,6 @@
 # 🌌 Abhinav Chauhan | High-Performance Developer Portfolio
 
-![Portfolio Header Image](https://raw.githubusercontent.com/abhinaavchauhan/Portfolio/main/public/app-icon.png)
+![Portfolio Header Image](https://raw.githubusercontent.com/abhinaavchauhan/Portfolio/main/public/favicon.svg)
 
 > **A cinematic, 60FPS, security-hardened developer portfolio powered by React, Framer Motion, and Vite.**
 
