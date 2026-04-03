@@ -84,5 +84,5 @@ This project includes an **Enterprise-Grade Security Hardening** layer:
 ---
 
 <p align="center">
-  Built with ❤️ & Physics by Abhinav Chauhan
+  Built with ❤️ Abhinav Chauhan
 </p>
