@@ -13,7 +13,7 @@ const Hero = () => {
   return (
     <section 
       ref={containerRef}
-      className="relative h-[90vh] md:h-screen w-full flex flex-col justify-center overflow-hidden pt-20"
+      className="relative min-h-screen w-full flex flex-col justify-center overflow-visible pt-24 pb-12 lg:pb-0 lg:overflow-hidden"
     >
       <div 
         className="absolute inset-0 z-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-accent2/10 via-transparent to-transparent opacity-50"
@@ -120,7 +120,7 @@ const Hero = () => {
             </div>
             
             {/* Terminal Body */}
-            <div className="p-4 md:p-6 font-mono text-xs md:text-sm text-gray-300 bg-black/60 min-h-[250px] w-full flex flex-col gap-3 relative overflow-x-auto whitespace-pre-wrap break-words">
+            <div className="p-4 md:p-6 font-mono text-[11px] sm:text-xs md:text-sm text-gray-300 bg-black/60 min-h-0 md:min-h-[250px] w-full flex flex-col gap-2 sm:gap-3 relative overflow-x-hidden whitespace-pre-wrap break-words">
               <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:100%_4px] pointer-events-none opacity-20 hidden md:block" />
               
               <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{delay:1.2}} className="flex items-start gap-3">
