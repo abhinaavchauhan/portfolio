@@ -14,7 +14,7 @@ export const projects = [
     description: "A scalable web system that merges multiple smartphones into a unified virtual display. Enables synchronized real-time viewing across devices.",
     category: "System Design",
     techStack: ["React", "WebSockets", "Node.js"],
-    link: "https://github.com/abhinaavchauhan/ScreenFusion",
+    link: "https://github.com/abhinaavchauhan/screenfusion",
     image: "/projects/screenfusion.png"
   },
   {
@@ -23,7 +23,7 @@ export const projects = [
     description: "A premium Android application for high-speed offline file transfer using Bluetooth RFCOMM sockets. Built with MVVM architecture and Material Design principles.",
     category: "Mobile",
     techStack: ["Android", "Java", "Bluetooth RFCOMM", "MVVM"],
-    link: "https://github.com/abhinaavchauhan/SwiftShare",
+    link: "https://github.com/abhinaavchauhan/swiftshare",
     image: "/projects/swiftshare.png"
   },
   {
@@ -50,7 +50,7 @@ export const projects = [
     description: "A full-stack expense management system with Node.js backend and Jetpack Compose Android frontend. Supports analytics and expense sharing.",
     category: "Full Stack",
     techStack: ["Node.js", "Jetpack Compose", "Android", "Analytics"],
-    link: "https://github.com/abhinaavchauhan",
+    link: "https://github.com/abhinaavchauhan/expensetracker",
     image: "/projects/expense.png"
   }
 ];
