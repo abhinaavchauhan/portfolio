@@ -1,10 +1,10 @@
-# 🌌 Abhinav Chauhan | High-Performance Developer Portfolio
+# <img src="public/favicon.svg" width="28" align="center" /> Abhinav Chauhan | High-Performance Developer Portfolio
 
 ![Portfolio Header Image](https://raw.githubusercontent.com/abhinaavchauhan/Portfolio/main/public/favicon.svg)
 
 > **A cinematic, 60FPS, security-hardened developer portfolio powered by React, Framer Motion, and Vite.**
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/your-id/deploy-status)](https://app.netlify.com/sites/your-site/deploys)
+[![Netlify Status](https://img.shields.io/badge/Netlify-Deployed-00C7B7?style=for-the-badge&logo=netlify)](https://www.netlify.com/)
 [![PWA Ready](https://img.shields.io/badge/PWA-Ready-00f0ff?style=for-the-badge&logo=pwa)](https://web.dev/pwa/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-a855f7?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
