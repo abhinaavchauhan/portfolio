@@ -34,7 +34,7 @@ export const skills = [
     skills: [
       { name: "Java", icon: <FaJava className="text-[#007396] text-2xl" /> },
       { name: "Python", icon: <FaPython className="text-[#3776AB] text-2xl" /> },
-      { name: "C Programming", icon: <SiC className="text-[#A8B9CC] text-2xl" /> },
+      { name: "C", icon: <SiC className="text-[#A8B9CC] text-2xl" /> },
       { name: "PHP", icon: <FaPhp className="text-[#777BB4] text-2xl" /> }
     ]
   },
