@@ -1,4 +1,4 @@
-# <img src="public/favicon.svg" width="28" align="center" /> Abhinav Chauhan | High-Performance Developer Portfolio
+# <img src="public/favicon.svg" width="55" align="center" /> Abhinav Chauhan | High-Performance Developer Portfolio
 
 
 > **A cinematic, 60FPS, security-hardened developer portfolio powered by React, Framer Motion, and Vite.**
