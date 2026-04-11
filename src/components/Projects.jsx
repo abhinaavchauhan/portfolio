@@ -34,7 +34,7 @@ const Projects = () => {
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
               onClick={() => setSelectedProject(project)}
-              className="group cursor-pointer rounded-3xl overflow-hidden glass-panel relative h-[450px] flex flex-col justify-end p-8 border border-white/10"
+              className="group cursor-pointer rounded-3xl overflow-hidden glass-panel relative h-[350px] md:h-[450px] flex flex-col justify-end p-6 md:p-8 border border-white/10"
             >
               {/* Background Image */}
               <div className="absolute inset-0 z-0">
@@ -48,7 +48,7 @@ const Projects = () => {
               {/* Gradient Overlay for legibility */}
               <div className="absolute inset-0 bg-gradient-to-t from-background via-background/90 to-transparent z-10 opacity-90 transition-opacity duration-500 group-hover:opacity-100" />
               
-              <div className="relative z-20 transform translate-y-8 group-hover:translate-y-0 transition-transform duration-500 w-full">
+              <div className="relative z-20 transform md:translate-y-8 group-hover:translate-y-0 transition-transform duration-500 w-full">
                 <div className="flex justify-between items-start mb-3">
                   <span className="text-xs font-mono text-accent1 block">{project.category}</span>
                   {project.link && (
@@ -57,7 +57,7 @@ const Projects = () => {
                       target="_blank" 
                       rel="noopener noreferrer" 
                       onClick={(e) => e.stopPropagation()}
-                      className="p-3 bg-black/40 border border-white/10 rounded-full hover:bg-accent1 hover:text-black transition-all duration-300 backdrop-blur-md opacity-0 group-hover:opacity-100 transform translate-y-4 group-hover:translate-y-0 shadow-[0_0_15px_rgba(0,0,0,0.5)] hover:shadow-[0_0_20px_rgba(0,240,255,0.4)] hover:scale-110"
+                      className="p-3 bg-black/40 border border-white/10 rounded-full hover:bg-accent1 hover:text-black transition-all duration-300 backdrop-blur-md opacity-100 md:opacity-0 group-hover:opacity-100 transform md:translate-y-4 group-hover:translate-y-0 shadow-[0_0_15px_rgba(0,0,0,0.5)] hover:shadow-[0_0_20px_rgba(0,240,255,0.4)] hover:scale-110"
                       title="View Code on GitHub"
                     >
                       <ArrowUpRight size={20} strokeWidth={2.5} />
@@ -66,7 +66,7 @@ const Projects = () => {
                 </div>
                 <h3 className="text-3xl font-bold text-white group-hover:text-accent1 transition-colors duration-300 w-full pr-12">{project.title}</h3>
                 
-                <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100 h-0 group-hover:h-auto overflow-hidden">
+                <div className="opacity-0 group-hover:opacity-100 transition-all duration-500 delay-100 h-0 group-hover:h-auto overflow-hidden">
                   <p className="text-gray-200 text-sm mb-6 leading-relaxed line-clamp-3">{project.description}</p>
                   <div className="flex gap-2 flex-wrap pb-4">
                     {project.techStack.map((tech, i) => (
@@ -92,7 +92,7 @@ const Projects = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6"
+            className="fixed inset-0 z-50 flex items-center justify-center p-8 sm:p-6"
           >
             <div 
               className="absolute inset-0 bg-background/80 backdrop-blur-md"
@@ -102,7 +102,7 @@ const Projects = () => {
               initial={{ scale: 0.95, opacity: 0, y: 30 }}
               animate={{ scale: 1, opacity: 1, y: 0 }}
               exit={{ scale: 0.95, opacity: 0, y: 30 }}
-              className="bg-surface w-full max-w-4xl rounded-3xl relative z-10 shadow-2xl overflow-hidden border border-[var(--border-color)] flex flex-col md:flex-row max-h-[90vh]"
+              className="bg-surface w-full max-w-4xl rounded-3xl relative z-10 shadow-2xl overflow-hidden border border-[var(--border-color)] flex flex-col md:flex-row max-h-[60vh] md:max-h-[90vh]"
             >
               <button 
                 onClick={() => setSelectedProject(null)}
@@ -118,11 +118,11 @@ const Projects = () => {
                   alt={selectedProject.title} 
                   className="w-full h-full object-cover" 
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-background md:bg-gradient-to-r md:from-transparent md:to-background pointer-events-none" />
+                <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent md:via-transparent md:bg-gradient-to-r md:from-transparent md:to-background pointer-events-none" />
               </div>
 
               {/* Content Side */}
-              <div className="w-full md:w-1/2 p-8 md:p-12 overflow-y-auto bg-surface/80 relative">
+              <div className="w-full md:w-1/2 p-6 md:p-12 overflow-y-auto bg-surface/80 relative flex-1">
                 <span className="text-sm font-mono text-accent1 mb-3 block">{selectedProject.category}</span>
                 <h3 className="text-4xl font-bold mb-6 leading-tight">{selectedProject.title}</h3>
                 
