@@ -1,7 +1,8 @@
 import React, { useRef } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import Typewriter from 'typewriter-effect';
-import { ChevronRight, Terminal } from 'lucide-react';
+import { Download, Terminal } from 'lucide-react';
+import resumePDF from '../assets/Resume.pdf';
 
 const Hero = () => {
   const containerRef = useRef(null);
@@ -82,9 +83,15 @@ const Hero = () => {
             transition={{ duration: 1, delay: 1 }}
             className="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto"
           >
-            <a href="#projects" className="w-full sm:w-auto group relative px-8 py-4 bg-accent1 text-black font-semibold rounded-full hover:bg-white transition-all duration-300 shadow-[0_0_20px_rgba(0,240,255,0.4)] hover:shadow-[0_0_30px_rgba(255,255,255,0.6)] flex items-center justify-center gap-2 overflow-hidden">
-              <span className="relative z-10">Explore Projects</span>
-              <ChevronRight className="relative z-10 group-hover:translate-x-1 transition-transform" size={20} />
+            <a 
+              href={resumePDF} 
+              download="Abhinav_Chauhan_Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full sm:w-auto group relative px-8 py-4 bg-accent1 text-black font-semibold rounded-full hover:bg-white transition-all duration-300 shadow-[0_0_20px_rgba(0,240,255,0.4)] hover:shadow-[0_0_30px_rgba(255,255,255,0.6)] flex items-center justify-center gap-2 overflow-hidden"
+            >
+              <Download size={20} className="relative z-10 group-hover:translate-y-0.5 transition-transform" />
+              <span className="relative z-10">Download Resume</span>
               {/* Button inner glow/shimmer effect */}
               <div className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/40 to-transparent group-hover:animate-[shimmer_1.5s_infinite]" />
             </a>
