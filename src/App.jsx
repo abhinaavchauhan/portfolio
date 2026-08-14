@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Lenis from 'lenis';
-import { AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
+import { Menu, X } from 'lucide-react';
 import Hero from './components/Hero';
 import About from './components/About';
 import Skills from './components/Skills';
@@ -13,6 +14,9 @@ import CustomCursor from './components/CustomCursor';
 
 function App() {
   const [loading, setLoading] = useState(true);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  const navItems = ['About', 'Skills', 'Projects', 'Experience', 'Contact'];
 
   useEffect(() => {
     // Initialize smooth scrolling with Lenis setup
@@ -60,7 +64,7 @@ function App() {
 
               <div className="flex items-center gap-6">
                 <div className="md:flex gap-8 text-sm font-medium hidden">
-                  {['About', 'Skills', 'Projects', 'Experience', 'Contact'].map((item) => (
+                  {navItems.map((item) => (
                     <a 
                       key={item} 
                       href={`#${item.toLowerCase()}`}
@@ -71,8 +75,43 @@ function App() {
                     </a>
                   ))}
                 </div>
+
+                {/* Mobile Hamburger Button */}
+                <button
+                  onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+                  className="md:hidden p-2 text-gray-300 hover:text-white focus:outline-none transition-colors rounded-lg border border-white/10 bg-white/5 hover:bg-white/10"
+                  aria-label="Toggle mobile navigation menu"
+                >
+                  {isMobileMenuOpen ? <X size={22} /> : <Menu size={22} />}
+                </button>
               </div>
             </div>
+
+            {/* Mobile Dropdown Menu */}
+            <AnimatePresence>
+              {isMobileMenuOpen && (
+                <motion.div
+                  initial={{ opacity: 0, height: 0 }}
+                  animate={{ opacity: 1, height: 'auto' }}
+                  exit={{ opacity: 0, height: 0 }}
+                  transition={{ duration: 0.3, ease: 'easeInOut' }}
+                  className="md:hidden overflow-hidden bg-background/95 backdrop-blur-xl border-b border-white/10 px-6 py-4"
+                >
+                  <div className="flex flex-col gap-3">
+                    {navItems.map((item) => (
+                      <a
+                        key={item}
+                        href={`#${item.toLowerCase()}`}
+                        onClick={() => setIsMobileMenuOpen(false)}
+                        className="text-gray-300 hover:text-accent1 font-medium text-base py-2 px-3 rounded-lg hover:bg-white/5 transition-all duration-200"
+                      >
+                        {item}
+                      </a>
+                    ))}
+                  </div>
+                </motion.div>
+              )}
+            </AnimatePresence>
           </nav>
 
           <main>
