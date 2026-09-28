@@ -3,6 +3,11 @@
   publish = "dist"
 
 [[headers]]
+  for = "/index.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
   for = "/*"
   [headers.values]
     Content-Security-Policy = "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self'; frame-ancestors 'none'; object-src 'none'; base-uri 'self';"
@@ -13,8 +18,9 @@
     Permissions-Policy = "camera=(), microphone=(), geolocation=()"
     X-XSS-Protection = "1; mode=block"
 
-# Handle routing if needed (though it's a SPA so maybe redirect /* to /index.html)
+# Handle routing for SPA
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
+
