@@ -34,8 +34,10 @@ const Loader = ({ setLoading }) => {
           transition={{ duration: 0.5 }}
           className="mb-8 relative"
         >
-          <h1 className="text-4xl md:text-6xl font-display font-bold tracking-tighter text-white">
-            AC<span className="text-accent1">.</span>
+          <h1 className="text-4xl md:text-6xl font-display font-bold tracking-tighter">
+            <span className="text-accent1">A</span>
+            <span className="text-accent2">C</span>
+            <span className="text-accent1">.</span>
           </h1>
           <motion.div 
             animate={{ left: ["0%", "100%", "0%"] }}

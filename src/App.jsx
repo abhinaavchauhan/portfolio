@@ -57,8 +57,10 @@ function App() {
         <div className="bg-transparent min-h-screen text-gray-200 selection:bg-accent1 selection:text-black relative z-10 transition-colors duration-500">
           <nav className="fixed top-0 left-0 w-full z-40 bg-background/80 backdrop-blur-md border-b border-white/5 transition-all duration-300">
             <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
-              <a href="#" className="text-2xl font-display font-bold text-white tracking-tighter hover:scale-105 transition-transform duration-300 relative group">
-                AC<span className="text-accent1 relative z-10 group-hover:text-accent2 transition-colors duration-300">.</span>
+              <a href="#" className="text-2xl font-display font-bold tracking-tighter hover:scale-105 transition-transform duration-300 relative group">
+                <span className="text-accent1">A</span>
+                <span className="text-accent2">C</span>
+                <span className="text-accent1 relative z-10 group-hover:text-accent2 transition-colors duration-300">.</span>
                 <div className="absolute inset-0 bg-accent1 opacity-0 group-hover:opacity-10 blur-lg transition-opacity duration-300" />
               </a>
 

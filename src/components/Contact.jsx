@@ -267,14 +267,6 @@ const Contact = () => {
 
           {/* Direct Email & Social Buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-16">
-            <a 
-              href="mailto:abhinavsirt@gmail.com"
-              className="flex items-center gap-3 px-6 py-3 bg-white/5 border border-white/10 rounded-full text-gray-300 hover:text-white hover:bg-white/10 hover:border-accent1/50 transition-all duration-300 text-sm shadow-[0_0_15px_rgba(0,0,0,0)] hover:shadow-[0_0_20px_rgba(0,240,255,0.2)] hover:-translate-y-1"
-            >
-              <Mail className="text-accent1" size={18} />
-              <span>abhinavsirt@gmail.com</span>
-            </a>
-            
             <div className="flex gap-4">
               <a 
                 href="https://github.com/abhinaavchauhan" 
