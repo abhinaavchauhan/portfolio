@@ -34,8 +34,10 @@ const Loader = ({ setLoading }) => {
           transition={{ duration: 0.5 }}
           className="mb-8 relative"
         >
-          <h1 className="text-4xl md:text-6xl font-display font-bold tracking-tighter text-white">
-            AC<span className="text-accent1">.</span>
+          <h1 className="text-4xl md:text-6xl font-display font-extrabold tracking-tighter inline-flex items-center">
+            <span className="text-[#00F0FF] drop-shadow-[0_0_12px_rgba(0,240,255,0.4)]">A</span>
+            <span className="text-[#A855F7] drop-shadow-[0_0_12px_rgba(168,85,247,0.4)]">C</span>
+            <span className="text-[#00F0FF] drop-shadow-[0_0_8px_rgba(0,240,255,0.8)]">.</span>
           </h1>
           <motion.div 
             animate={{ left: ["0%", "100%", "0%"] }}
