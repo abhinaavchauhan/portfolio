@@ -18,9 +18,21 @@
     Permissions-Policy = "camera=(), microphone=(), geolocation=()"
     X-XSS-Protection = "1; mode=block"
 
+# Pass-through static HTML and assets before fallback redirect
+[[redirects]]
+  from = "/resume.html"
+  to = "/resume.html"
+  status = 200
+
+[[redirects]]
+  from = "/resume.pdf"
+  to = "/resume.pdf"
+  status = 200
+
 # Handle routing for SPA
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
+
 
