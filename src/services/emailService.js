@@ -8,21 +8,19 @@ const rateLimitMap = new Map();
 const RATE_LIMIT_WINDOW_MS = 15 * 60 * 1000; // 15 minutes
 const MAX_REQUESTS_PER_WINDOW = 5;
 
-// Clean expired rate limit records periodically
-setInterval(() => {
-  const now = Date.now();
-  for (const [ip, timestamps] of rateLimitMap.entries()) {
-    const validTimestamps = timestamps.filter(t => now - t < RATE_LIMIT_WINDOW_MS);
-    if (validTimestamps.length === 0) {
-      rateLimitMap.delete(ip);
-    } else {
-      rateLimitMap.set(ip, validTimestamps);
-    }
-  }
-}, 5 * 60 * 1000);
-
 export function checkRateLimit(clientIp = '127.0.0.1') {
   const now = Date.now();
+
+  // Clean expired rate limit records on demand
+  for (const [ip, timestamps] of rateLimitMap.entries()) {
+    const valid = timestamps.filter(t => now - t < RATE_LIMIT_WINDOW_MS);
+    if (valid.length === 0) {
+      rateLimitMap.delete(ip);
+    } else {
+      rateLimitMap.set(ip, valid);
+    }
+  }
+
   const timestamps = rateLimitMap.get(clientIp) || [];
   const validTimestamps = timestamps.filter(t => now - t < RATE_LIMIT_WINDOW_MS);
 
