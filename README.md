@@ -77,8 +77,9 @@ This project includes an **Enterprise-Grade Security Hardening** layer:
 ## 👤 Author
 
 **Abhinav Chauhan**
-- **GitHub**: [@abhinaavchauhan](https://github.com/abhinaavchauhan)
-- **LinkedIn**: [Abhinav Chauhan](https://linkedin.com/in/abhinaavchauhan)
+- **Portfolio**: [abhinaavchauhan](https://abhinaavchauhanportfolio.netlify.app/)
+- **GitHub**: [abhinaavchauhan](https://github.com/abhinaavchauhan)
+- **LinkedIn**: [abhinaavchauhan](https://linkedin.com/in/abhinaavchauhan)
 
 ---
 
